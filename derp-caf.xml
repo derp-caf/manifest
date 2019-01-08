@@ -26,6 +26,7 @@
   <project name="frameworks_av" path="frameworks/av" remote="derp" />
   <project name="frameworks_base" path="frameworks/base" remote="derp" />
   <project name="frameworks_native" path="frameworks/native" remote="derp" />
+  <project name="frameworks_aoscp" path="frameworks/aoscp" remote="derp" />
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="derp" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="derp" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="derp" />
