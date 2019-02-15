@@ -57,7 +57,9 @@
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="derp" />
   <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="derp" />
   <project name="packages_apps_Terminal" path="packages/apps/Terminal" remote="derp" />
-  <project name="packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="derp" />
+  <project name="packages_apps_Snap" path="packages/apps/Snap" remote="derp" />
+  <project name="packages_apps_Phonograph" path="packages/apps/Phonograph" remote="derp" />
+  <project name="packages_apps_Recorder" path="packages/apps/Recorder" remote="derp" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="derp" />
   <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="derp" clone-depth="1" />
   <project name="packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="derp" />

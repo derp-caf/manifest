@@ -533,6 +533,7 @@
   <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="c701aae0c3949e7f6d9764b3e96d786dc8327f76" upstream="refs/heads/ks-aosp.lnx.1.0.r2-rel"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="refs/heads/ks-aosp.lnx.1.0.r2-rel"/>
   <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="184960558ba8bde025957ca7a072b4fc3d50d36b" upstream="refs/heads/camera.lnx.3.1.r4-rel"/>
+  <project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic" revision="refs/heads/android_ui.lnx.3.0.r7-rel"/>
   <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" revision="e56d21a27fc20992d89ee0a140516daf933c890b" upstream="refs/heads/android_ui.lnx.3.0.r7-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="0f57ca10f8347fdfee4d67cf2d74960564e7bdbf" upstream="refs/heads/ks-aosp.lnx.1.0.r2-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="81e684a820030a8290bfbb5d3e3de752751397d6" upstream="refs/heads/ks-aosp.lnx.1.0.r2-rel"/>

@@ -47,6 +47,8 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
