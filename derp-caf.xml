@@ -32,12 +32,6 @@
   <project name="frameworks_opt_slimrecent" path="frameworks/opt/slimrecent" remote="derp" />
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="derp" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="derp" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media" remote="derp" revision="p-8996" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="derp" revision="p-8996" />
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio" remote="derp" revision="p-8996" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media-8998" remote="derp" revision="p-8998" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display-8998" remote="derp" revision="p-8998" />
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio-8998" remote="derp" revision="p-8998" />
   <project name="hardware_interfaces" path="hardware/interfaces" remote="derp" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="derp" />
   <project name="hardware_ril" path="hardware/ril" remote="derp" />
