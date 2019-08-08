@@ -1,11 +1,14 @@
-# manifest
-Initializing the repo:
-repo init -u git://github.com/derp-caf/manifest.git -b p -m default.xml
+# Derp-CAF manifest
 
-For Syncing:
-repo sync -f -c -j8 --force-sync --no-tags --no-clone-bundle
+[![TG chat](https://img.shields.io/badge/Support-Telegram-%23e52c5f.svg?style=for-the-badge&logo=telegram&&labelColor=121217)](https://t.me/DerpGangDiscussions)
 
-For Compiling:
-. build/envsetup.sh
-lunch derp_devicecodename-userdebug
-mka derp
+# Initializing the repo:
+**repo init -u git://github.com/derp-caf/manifest.git -b p -m default.xml**
+
+# Syncing:
+**repo sync -c -f -j$( nproc --all ) --no-tags --no-clone-bundle -q**
+
+# For Compiling:
+- source build/envsetup.sh
+- lunch derp_devicecodename-userdebug
+- mka derp
