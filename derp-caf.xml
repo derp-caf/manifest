@@ -61,6 +61,7 @@
   
   <!-- prebuilts -->
   <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="derp" />
+  <project name="prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="derp" />
 
   <!-- vendor -->
   <project name="vendor_codeaurora_commonsys_telephony" path="vendor/codeaurora/commonsys/telephony" remote="derp" />
