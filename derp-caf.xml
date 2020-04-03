@@ -64,6 +64,7 @@
   <project name="prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="derp" />
 
   <!-- vendor -->
+  <project name="vendor_derp" path="vendor/derp" remote="derp" />
   <project name="vendor_codeaurora_commonsys_telephony" path="vendor/codeaurora/commonsys/telephony" remote="derp" />
   <project name="vendor_qcom_opensource_commonsys_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="derp"/>
   <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="derp">
