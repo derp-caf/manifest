@@ -58,6 +58,7 @@
 
   <!-- derp repos -->
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/system/bt" />
@@ -67,6 +68,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
+  <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
@@ -76,12 +78,17 @@
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/external/ant-wireless/ant_native" />
   <remove-project name="platform/external/ant-wireless/ant_service" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/hardware/interfaces" />

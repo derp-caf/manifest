@@ -4,6 +4,8 @@
   <!-- general -->
   <project name="bionic" path="bionic" remote="derp" />
   <project name="bootable_recovery" path="bootable/recovery" remote="derp" />
+  <project name="art" path="art" remote="derp" />
+  <project name="libcore" path="libcore" remote="derp" />
 
   <!-- build -->
   <project name="build" path="build/make" remote="derp" >
@@ -27,12 +29,16 @@
   <!-- external -->
   <project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="derp" />
   <project name="external_selinux" path="external/selinux" remote="derp" />
+  <project name="external_arm-optimized-routines" path="external/arm-optimized-routines" remote="derp" />
+  <project name="external_zlib" path="external/zlib" remote="derp" />
+  <project name="external_sqlite" path="external/sqlite" remote="derp" />
 
   <!-- frameworks -->
   <project name="frameworks_av" path="frameworks/av" remote="derp" />
   <project name="frameworks_base" path="frameworks/base" remote="derp" />
   <project name="frameworks_native" path="frameworks/native" remote="derp" />
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="derp" />
+  <project name="frameworks_rs" path="frameworks/rs" remote="derp" />
 
   <!-- hardware -->
   <project name="hardware_qcom_bt" path="hardware/qcom/bt" remote="derp" />
@@ -67,6 +73,8 @@
   <!-- vendor -->
   <project name="vendor_derp" path="vendor/derp" remote="derp" />
   <project name="vendor_codeaurora_commonsys_telephony" path="vendor/codeaurora/commonsys/telephony" remote="derp" />
+  <project name="vendor_codeaurora_packages_apps_Dialer" path="vendor/codeaurora/packages/apps/Dialer" remote="derp" />
+
   <project name="vendor_qcom_opensource_commonsys_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="derp"/>
   <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="derp">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
