@@ -19,6 +19,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project name="build_blueprint" path="build/blueprint" remote="derp" />
   
   <!-- device -->
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="derp" />
