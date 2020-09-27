@@ -844,6 +844,7 @@
 
   <!-- SDClang From AOSPA -->
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" path="vendor/qcom/sdclang-8.0/linux-x86" remote="github" revision="quartz" />
+
   <!-- Remove -->
   <include name="remove.xml" />
 
