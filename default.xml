@@ -665,7 +665,7 @@
   <project groups="pdk,r-fs-release" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="940eb8013be56abd6a4d4fed976b7998dcad5eac" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel">
     <linkfile dest="frameworks/support.md" src="current/androidx-README.md"/>
   </project>
-  <project groups="pdk,r-fs-release,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="615c483ef6c8488ce0b1209dad2637e53af96f2d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project clone-depth="1" groups="pdk,r-fs-release,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="615c483ef6c8488ce0b1209dad2637e53af96f2d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="pdk,r-fs-release" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" revision="8f5cda388b1ec4f93231e843d6a8d9ceac397da3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="pdk,r-fs-release" name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28" revision="0eea7bca6faf600e8d51e86073b4ede3c2a3fd75" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="pdk,r-fs-release" name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29" revision="5b3afc5734673e32ef0070c32db254bf768aa986" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
