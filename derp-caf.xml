@@ -42,6 +42,7 @@
   <!-- packages -->
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="derp" />
   <project name="packages_modules_ArtPrebuilt" path="packages/modules/ArtPrebuilt" remote="derp" />
+  <project name="packages_services_Telephony" path="packages/services/Telephony" remote="derp" />
 
   <!-- system -->
   <project name="system_bt" path="system/bt" remote="derp" />
@@ -54,6 +55,7 @@
 
   <!-- vendor -->
   <project name="vendor_derp" path="vendor/derp" remote="derp" />
+  <project name="vendor_codeaurora_packages_apps_Dialer" path="vendor/codeaurora/packages/apps/Dialer" remote="derp" />
 
   <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="derp">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
