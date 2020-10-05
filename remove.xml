@@ -89,6 +89,7 @@
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
+  <remove-project name="platform/vendor/codeaurora/telephony" />
 
 </manifest>
 
