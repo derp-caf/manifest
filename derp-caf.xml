@@ -27,6 +27,7 @@
   <!-- external -->
   <project name="external_selinux" path="external/selinux" remote="derp" />
   <project name="external_fastrpc" path="external/fastrpc" remote="derp" />
+  <project name="external_sl4a" path="external/sl4a" remote="derp" />
 
   <!-- frameworks -->
   <project name="frameworks_av" path="frameworks/av" remote="derp" />
@@ -41,6 +42,8 @@
 
   <!-- packages -->
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="derp" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="derp" />
+  <project name="packages_apps_DerpZone" path="packages/apps/DerpZone" remote="derp" />
   <project name="packages_modules_ArtPrebuilt" path="packages/modules/ArtPrebuilt" remote="derp" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="derp" />
 
