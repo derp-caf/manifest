@@ -70,5 +70,6 @@
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="derp" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="derp" />
   <project name="vendor_codeaurora_commonsys_telephony" path="vendor/codeaurora/commonsys/telephony" remote="derp" />  
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="derp" /> 
 
 </manifest>
