@@ -46,6 +46,9 @@
   <project name="packages_apps_DerpZone" path="packages/apps/DerpZone" remote="derp" />
   <project name="packages_modules_ArtPrebuilt" path="packages/modules/ArtPrebuilt" remote="derp" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="derp" />
+  <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="derp" />
+  <project name="packages_apps_PermissionController" path="packages/apps/PermissionController" remote="derp" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="derp" />
 
   <!-- system -->
   <project name="system_bt" path="system/bt" remote="derp" />

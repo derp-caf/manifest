@@ -92,5 +92,8 @@
   <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 </manifest>
 
