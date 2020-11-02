@@ -57,6 +57,9 @@
   <remove-project name="platform/vendor/qcom/skunk" />
   <remove-project name="platform/vendor/qcom/steppe" />
   <remove-project name="platform/vendor/qcom/thulium" />
+  <remove-project name="platform/vendor/qcom/atoll" />
+  <remove-project name="platform/vendor/qcom/cobalt" />
+  <remove-project name="platform/vendor/qcom/falcon_64" />
   <remove-project name="platform/vendor/qcom/wlan" />
 
   <!-- derp repos -->
