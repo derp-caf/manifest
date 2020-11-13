@@ -47,6 +47,7 @@
   <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="derp" />
   <project name="packages_apps_PermissionController" path="packages/apps/PermissionController" remote="derp" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="derp" />
+  <project name="packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="derp" />
 
   <!-- system -->
   <project name="system_bt" path="system/bt" remote="derp" />
