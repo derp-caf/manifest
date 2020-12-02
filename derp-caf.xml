@@ -48,11 +48,13 @@
   <project name="packages_apps_PermissionController" path="packages/apps/PermissionController" remote="derp" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="derp" />
   <project name="packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="derp" />
+  <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="derp" />
 
   <!-- system -->
   <project name="system_bt" path="system/bt" remote="derp" />
   <project name="system_core" path="system/core" remote="derp" />
   <project name="system_sepolicy" path="system/sepolicy" remote="derp" />
+  <project name="system_netd" path="system/netd" remote="derp" />
   
   <!-- prebuilts -->
   <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="derp" />
