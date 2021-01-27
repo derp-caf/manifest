@@ -76,6 +76,7 @@
   <project name="vendor_qcom_opensource_commonsys_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="derp" />
   <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="derp" />
   <project name="vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="derp" />
+  <project name="vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="derp" />
   <project name="vendor_qcom_opensource_recovery-ext" path="vendor/qcom/opensource/recovery_ext" remote="derp" />
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="derp" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="derp" />
