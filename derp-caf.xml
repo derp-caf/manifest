@@ -63,6 +63,9 @@
   <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="derp" />
   <project name="prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="derp" />
 
+  <!-- tools -->
+  <project name="tools_extract-utils" path="tools/extract-utils" remote="derp" />
+
   <!-- vendor -->
   <project name="vendor_derp" path="vendor/derp" remote="derp" />
   <project name="vendor_codeaurora_packages_apps_Dialer" path="vendor/codeaurora/packages/apps/Dialer" remote="derp" />
