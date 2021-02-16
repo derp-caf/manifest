@@ -69,6 +69,7 @@
   <!-- vendor -->
   <project name="vendor_derp" path="vendor/derp" remote="derp" />
   <project name="vendor_codeaurora_packages_apps_Dialer" path="vendor/codeaurora/packages/apps/Dialer" remote="derp" />
+  <project name="vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="derp"/>
 
   <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="derp">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
