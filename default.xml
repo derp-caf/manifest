@@ -6,7 +6,7 @@
            review="codeaurora.org"/>
   
 <default   remote="caf"
-           revision="refs/tags/LA.UM.9.2.r1-02000-SDMxx0.0" />
+           revision="refs/tags/LA.UM.9.2.r1-02500-SDMxx0.0" />
 
 <remote    name="derp"
            fetch="https://github.com/derp-caf"
@@ -15,16 +15,16 @@
 <remote    name="github"
            fetch="https://github.com/" />
 
-  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="a4f0de0a7e79517d733aa40f9aa4bc59753e6f9d" upstream="refs/heads/uefi.lnx.2.1.r15-rel"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="f750cf0896e38388a0fca99b39006b458ce3d737" upstream="refs/heads/uefi.lnx.2.1.r15-rel"/>
   <project groups="aosp-android11-release,device,pdk,yukawa" name="device/amlogic/yukawa" revision="df9c99510359ecadd6c8ea2b52b0127565e940a7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project clone-depth="2" groups="aosp-android11-release,device,pdk,yukawa" name="device/amlogic/yukawa-kernel" revision="7807a99270a74b5fdf39e1b8d6892911c38245e0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,pdk-cw-fs" name="device/common" revision="d43738a937d87fa0371e137989bdf9354f195ece" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/generic/arm64" revision="3849335f68b2593ca4e1a8ca8e3996a2e93aea34" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/generic/armv7-a-neon" revision="9feb47e11cac4a269c5b7ddfb2d0f4ba66e115e2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/generic/art" revision="7fb5c6565742d7321fd34ade516e73da0a6a8e52" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="device/generic/car" revision="c81e713ad4cc0684393b24f5b063afdc14fdffd8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="device/generic/car" revision="9a40379fb866c3924c7105c06f02e853a63fb8d9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/generic/common" revision="b447397bc743437d4e27d5c98b3ee52243bc7fc9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="device/generic/goldfish" revision="ac1a4a0f7e62ffc15edd1fc9d68953ea0168bdf6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="device/generic/goldfish" revision="bb68e0d4424eef057241043ce5b4b97b274aebcb" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/generic/goldfish-opengl" revision="04b0f89c54cb8bc70420f20e7f93f7791e8d169c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="pdk,r-fs-release" name="device/generic/lionhead" revision="4f50f0b96d04adbec9c24dc10598f33b60ae1151" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/generic/mini-emulator-arm64" revision="859097c01cf8b7f090c3127a3932fe4a84e49cf5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -37,9 +37,9 @@
   <project groups="aosp-android11-release,device,pdk" name="device/generic/uml" revision="e347ca2b73a657e42e5dd6ea29c27524995d74de" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/generic/x86" revision="6870298084f2798ac82826406413a4b3f24dca4c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/generic/x86_64" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,broadcom_pdk,device,generic_fs,pdk" name="device/google/atv" revision="5e11b569647c7fd82bec9fd1cf22638f9ec6ebd1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,broadcom_pdk,device,generic_fs,pdk" name="device/google/atv" revision="59032ee0abf82bc1ef4dc1ee89018c3442997ea7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,device,pdk" name="device/google/contexthub" revision="fb66283a40552d0b9613c2cbe0c36a4b7afd6cd0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,device,pdk" name="device/google/cuttlefish" revision="9cb5708db9eca5c354cbfec9cca73a26e67c432f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,device,pdk" name="device/google/cuttlefish" revision="048008ff1b60835c95d3ade0191284759029b756" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,device,pdk" name="device/google/cuttlefish_kernel" revision="1538bb5c6771928bd58078709e6e9d81e71c252c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,device,pdk" name="device/google/cuttlefish_vmm" revision="f8eedaaee499e166a51ba8bfb6d0fb225debe0de" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/google/vrservices" revision="17063aa5857078c4ecd8a1cf065097d1c7cabc7a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -48,25 +48,25 @@
   <project groups="aosp-android11-release,device,dragonboard,pdk" name="device/linaro/dragonboard-kernel" revision="a88867f034172d6f0dd6d32b4a8323b6c5674303" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,device,pdk,poplar" name="device/linaro/poplar" revision="906671d87cc9ab31512805fc7768046503369c37" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,device,pdk,poplar" name="device/linaro/poplar-kernel" revision="2f6bd503cc92d285e51d2aa3c381e562b2f4a63f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project name="device/qcom/common" revision="0308dfca1bde0dd4b3c2be7263d0cf104ea43c92" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel">
+  <project name="device/qcom/common" revision="ce2f42d65aa42eabb1bdee1d52128a3e43b52dca" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
     <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
   </project>
-  <project name="device/qcom/qssi" revision="1de121bb3809b7dd2856c3db458b0d5a6b144a2a" upstream="refs/heads/qcom-qssi.lnx.6.0.r10-rel"/>
-  <project name="device/qcom/sepolicy" revision="3f36e40b580a79187090e5245699402ba2063ebf" upstream="refs/heads/sepolicy.lnx.6.0.r13-rel"/>
-  <project name="device/qcom/vendor-common" revision="c8b2b3a273247dcbf269ba761979b478256809f6" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
+  <project name="device/qcom/qssi" revision="a8112865908d9379d7ae3dc7dce39857930170b0" upstream="refs/heads/qcom-qssi.lnx.6.0.r10-rel"/>
+  <project name="device/qcom/sepolicy" revision="e41e2605d68605c8a3088a64663c9f8847cd4c50" upstream="refs/heads/sepolicy.lnx.6.0.r13-rel"/>
+  <project name="device/qcom/vendor-common" revision="cb9808274c03fa9870391fb963836ceb0b09bbc7" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
   <project groups="aosp-android11-release,pdk" name="device/sample" revision="c8411b79a2c0d881ae134f795d8c0f56bc6d31c3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,vts" name="kernel/configs" revision="1c9ebcbc67a9c184656238118cec0d8b39fb4ff7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,vts" name="kernel/configs" revision="8849f4ef4b4b9d1066feeee2e864ddec329fee6e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project name="kernel/msm-4.4" revision="c3cd6d0f0f73c7f0b0b5173ac7ad6753fb3b8ce1" upstream="refs/heads/kernel.lnx.4.4.r44-rel">
     <linkfile dest="kernel/msm-4.4/Android.bp" src="Androidbp"/>
   </project>
   <project groups="aosp-android11-release,pdk" name="kernel/prebuilts/4.19/arm64" revision="9d42a8e478a73a12184de22d807a43e98ebb77b9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,vts" name="kernel/tests" revision="9c1fbfbc0e7c928087c24ef6d6ffb430fcad13e1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/art" path="art" revision="1e5eb14138dded75b93e9da4e1d9683fcb1e5ba5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/bionic" path="bionic" revision="9473bda092759e2b1d1bea3e79c612a2465436d0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/art" path="art" revision="80334b88c3cb5dc7c4b71243fbfb939152677d74" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/bionic" path="bionic" revision="c132d2e7f8694bd4f6e4ff18e8284c4c116c7490" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="7d589a106d6f03e9b308ffec6e205479be04f9d5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/build" path="build/make" revision="7d66c9862106b01085a9e22d786a30232a98a418" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel">
+  <project groups="aosp-android11-release,pdk" name="platform/build" path="build/make" revision="df0b8d251191a30bfebaca4295de757a61823ee8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -76,15 +76,15 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
   <project groups="aosp-android11-release,pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="9a26ad85602a7d24b301573a04b1179c09fa17ac" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,tradefed,cyborg" name="platform/build/soong" path="build/soong" revision="99c0df4a389089edd7e2c33822d4a5e11d4a8f68" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel">
+  <project groups="aosp-android11-release,pdk,tradefed,cyborg" name="platform/build/soong" path="build/soong" revision="5ee9c93375f2d43c363aa81a5d25eb7440efa499" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel">
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
-  <project groups="aosp-android11-release,pdk" name="platform/compatibility/cdd" path="compatibility/cdd" revision="a05aa16c66250e93254f0d77c4306781de811648" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="3109061182facfecfef35a0261a7de35c48b6dbe" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/compatibility/cdd" path="compatibility/cdd" revision="ca42fcb9626e36e5c2cdd929676f544957f18113" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="287d4b7df6ab8f86a1b4bdfaa5f80a8a435d3a72" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" revision="d948c7f4f9dbb3ec815d2f61bd1626d68782df60" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,developers,pdk" name="platform/developers/build" path="developers/build" revision="059a5f0705ebed5e3d2f3f317d2f2d4ec248af1c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development" revision="5ac4105c2a937112c42c3a57eaa453054a3630ca" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development" revision="6e0527de9e8fff795eb96d75265cec9b4221d31d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/FP16" path="external/FP16" revision="ef664cfb655e748463eba7907bcf12f46aade41d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/FXdiv" path="external/FXdiv" revision="2ab85460ed866041a4b2182b886df7ecde0cfefd" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/ImageMagick" path="external/ImageMagick" revision="4412d401866d6a44159cd8ef596c48deda88d067" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -94,9 +94,9 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/XNNPACK" path="external/XNNPACK" revision="642cf48e938d115eb90d2b7e5d14c38800f274d8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/aac" path="external/aac" revision="367d0e81d1918ef1feca9241bd488a55fdcdaada" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/adeb" path="external/adeb" revision="e5f4afe4ce27759e21ced5396b4c1a3228d6a096" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/adhd" path="external/adhd" revision="246b37622c7f8fcac9a198f948098c93ea704b2f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/adhd" path="external/adhd" revision="6e477c145a67f7d1b92fa709ff33401492fab6da" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="adt-infra,notdefault,pdk-fs,aosp-android11-release" name="platform/external/adt-infra" path="external/adt-infra" revision="792075098bddd6c5b2c5a83b76cf71b588211525" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/android-clat" path="external/android-clat" revision="34c8ca3383f276455a79fa14827433e8de1a3e33" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/android-clat" path="external/android-clat" revision="0ce2d395917bc5904952f5b9750476a9a91c50b2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/androidplot" path="external/androidplot" revision="c86fba037c90456d55229417fdccc66880d1309f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/angle" path="external/angle" revision="a0b24d50e6d09b36982e0eec28bf32a66dfcb85b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/ant-glob" path="external/ant-glob" revision="c4ddd04d677bda58dbb642f04116e0feaf11118f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -140,10 +140,10 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/cpuinfo" path="external/cpuinfo" revision="c8c75eebb88a0e87f64270f6ac9fd3344ba2b677" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/crcalc" path="external/crcalc" revision="c9118720b3fea0d457f4a18ba0087ea13dbcd081" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/cros/system_api" path="external/cros/system_api" revision="aea3a50cd373e432fa89247f42b433b7eb080133" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/crosvm" path="external/crosvm" revision="3bbd3da47be96a1e6e86925f25bb4c8bde1cc6d7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/crosvm" path="external/crosvm" revision="f83bacecde658f8ea7e14a0407ef5e61fab7d4d1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/curl" path="external/curl" revision="6655fa34cea21ef09d731e3e3fbe419d44954036" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/dagger2" path="external/dagger2" revision="4084582e688790bdf4e14909d6dbc8f491849d79" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/external/deqp" path="external/deqp" revision="e856cb55a3b5fdfec05af942ea6341c9a3ac4b39" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/external/deqp" path="external/deqp" revision="801a37d07640074c30c7769d30b0928810e561d9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/external/deqp-deps/SPIRV-Headers" path="external/deqp-deps/SPIRV-Headers" revision="f791abbc37209a264530c0026409a0e8e98f8c3f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/external/deqp-deps/SPIRV-Tools" path="external/deqp-deps/SPIRV-Tools" revision="3777965465012b6aa626522e0bc7f5e20ae01082" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/external/deqp-deps/amber" path="external/deqp-deps/amber" revision="36c9adebcd8aacbac2475e1c9aafe3afab60f9f8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -172,11 +172,11 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/fastrpc" path="external/fastrpc" revision="40a83918aab1ac4167c2e0cd10081870b0ac2119" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/fdlibm" path="external/fdlibm" revision="007db5e2c82dc3069f577e4936597101deb35a62" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/fec" path="external/fec" revision="81be3601c7b5ac2df040b880ccdb160bba745fdd" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/flac" path="external/flac" revision="35b68a4500ba3cbfc65875f4396bb6098c724778" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/flac" path="external/flac" revision="df598eb5c95a21ee5a5fcb737427502cc19bb822" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/flatbuffers" path="external/flatbuffers" revision="8319c3baf2f073d51f16b94b03309a124d4b5dc9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/fmtlib" path="external/fmtlib" revision="438a3cb92c812506c43fe321d1576f06c5d5a771" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/fonttools" path="external/fonttools" revision="4ebe2b95d964936d52b2440f1a800117fa356472" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/freetype" path="external/freetype" revision="3b1b0e95572c647db65151972e37151ef938ff5b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/freetype" path="external/freetype" revision="a36ddcb650219ef08ad9140057fe38aee8efd738" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="ccb1567224497b08b76456793ebc65d32b826a16" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/fsverity-utils" path="external/fsverity-utils" revision="21976c08b719afc586d64a39621fe75d6414e773" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/gemmlowp" path="external/gemmlowp" revision="9d8840734ba639fe01e252fa8a2ae6fa55cf0f23" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -188,23 +188,23 @@
   <project groups="aosp-android11-release,pdk-fs" name="platform/external/google-breakpad" path="external/google-breakpad" revision="44f7f536766676662f8bd21b94acf7d55232cad2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/arbutus-slab" path="external/google-fonts/arbutus-slab" revision="b75f7035ad898fe0fa831abe8aace77bd5342dee" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/arvo" path="external/google-fonts/arvo" revision="d9942924be93e2cb2006152825423639d0b2e34d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/barlow" path="external/google-fonts/barlow" revision="a7b6ddfdc57ced61d6dd98146a1ed57ab62342da" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/big-shoulders-text" path="external/google-fonts/big-shoulders-text" revision="2060bbdda04f6242b6d8d1bc3cc869423996a657" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/barlow" path="external/google-fonts/barlow" revision="73158a43e9eb63ffa4eb29094ab9074ec0806a64" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/big-shoulders-text" path="external/google-fonts/big-shoulders-text" revision="e9eea6bf8c0a757b49c373123017386668f85313" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" revision="811b7412b766de2c49a199adafc89a409163522c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" revision="34ef9ed3a412a50ccd19e9093c2250038116b485" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" revision="0ad9aff8acbaf92330e6032ed560439fac99a5da" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/dancing-script" path="external/google-fonts/dancing-script" revision="9c35d0b64aa32846efb4c1d95dd3385b87d3fade" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/fraunces" path="external/google-fonts/fraunces" revision="8486367f845b2b2dc4c4d7ca235c237d2e2f49d7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/karla" path="external/google-fonts/karla" revision="def4fb9ebf363d7808df2f71738f7e7d21e347c3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/fraunces" path="external/google-fonts/fraunces" revision="f1f8305bd8e720d39b1e60a354b6488fa73ff65a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/karla" path="external/google-fonts/karla" revision="98eef82898c87b1b3a4df30f4de7667be2f430a9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/lato" path="external/google-fonts/lato" revision="6cea54e26164e0280184c0fec5a702fdf1ae4e47" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/lustria" path="external/google-fonts/lustria" revision="3fe25b838861e13131e01cab9fa2b45512074f53" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/lustria" path="external/google-fonts/lustria" revision="6d6ddcec3901f047e02b3bd6ba9b5b0d9cea91e3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/rubik" path="external/google-fonts/rubik" revision="ad93c8ba9398a7da72e761c2ebedaf512f4def9e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/source-sans-pro" path="external/google-fonts/source-sans-pro" revision="4aa1d607c32ce0e9e734262a4ecf9e73c1ef09dc" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fonts/zilla-slab" path="external/google-fonts/zilla-slab" revision="0f7392e365c973a55ddff4fe80b7188e6df02f8d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-fruit" path="external/google-fruit" revision="0830e044050d0ccf55d2a3080600a0bceb75ff1d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/google-styleguide" path="external/google-styleguide" revision="4f92d17dcc845c2d9ff3f8a2b25f094b713f5432" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/googletest" path="external/googletest" revision="3e40f507538193247522bd12f67a1e8d8b6df8d9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/gptfdisk" path="external/gptfdisk" revision="ebb41c22f6a095c9c145c14ff8c33188873bcf4f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/gptfdisk" path="external/gptfdisk" revision="66e1c951b32e21fd717f5607f6ede0444ce6ba25" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,tradefed" name="platform/external/grpc-grpc" path="external/grpc-grpc" revision="bc18385a6f4936c302ac2a69a156061919422b28" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,tradefed" name="platform/external/grpc-grpc-java" path="external/grpc-grpc-java" revision="48aab82b257ae2d3e4f7b38c11719b12a58e46ee" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/guava" path="external/guava" revision="4c16248df6b8babb88b0ed4a1f2ff0b30c69231b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -214,7 +214,7 @@
   <project groups="aosp-android11-release,pdk,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" revision="6eb4478c11054030b09c54be82e44ba5d75affb7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/honggfuzz" path="external/honggfuzz" revision="fedd1653d1b3653cada91fa33cc5842bf7e934ea" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" revision="832f998f57933ec08424e679d65e116b426f9875" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/icu" path="external/icu" revision="de37863bbbef4dbafd8871495dd9119aacaddfc5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/icu" path="external/icu" revision="a4180c106bf86863965abdfb960bf68a2a9962b0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/igt-gpu-tools" path="external/igt-gpu-tools" revision="e9c085119a2e0dba22f756f7a8edd335b2572d29" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/image_io" path="external/image_io" revision="f6d9ed9706f85a693a0c5efb815a107aada0ef1b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/ims" path="external/ims" revision="1087083b24b0a6562ee50ece445666c448e9b478" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -247,8 +247,8 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/kotlinc" path="external/kotlinc" revision="90d0b6f38b8c755fccc12a562afd42dc92cdec8b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/kotlinx.coroutines" path="external/kotlinx.coroutines" revision="ba189ebdca65a947ca86bc2c5708b4c2638b677a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/ksoap2" path="external/ksoap2" revision="4b17169bee17a41dd7cc06094123fdbf7f42946f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/libaom" path="external/libaom" revision="c255b47c6c50cfd76c639a45bbefe1693c8e8bb7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/libavc" path="external/libavc" revision="625ba37bab136b54ec023d3e6183033e780b8c98" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/libaom" path="external/libaom" revision="d5ecad090dd4de70bd634d8001a0d3a41e618b86" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/libavc" path="external/libavc" revision="a7627419cff9144fae107e23b09c098639891673" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libbackup" path="external/libbackup" revision="ad76f985aab3e601495f5ee5247c1f3e14c4fac0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libbrillo" path="external/libbrillo" revision="6694e686756c309aab9e5bb667a48f2fd8d8145c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libcap" path="external/libcap" revision="329e663ba7286ef14c207b3cad191e4e97bebc6d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -263,12 +263,12 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/libepoxy" path="external/libepoxy" revision="ab62cca8d9bbae7e97233ea1d7e9632f0d96e54f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libese" path="external/libese" revision="6b9eea8ab547070080b6dff94b5194f6c2090507" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libevent" path="external/libevent" revision="6ee3fd0e21a19e9e0b5c3e3e2e3d78a21d45c3e5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/libexif" path="external/libexif" revision="e7ce763054ac53f1aabf2ab67513ed8a29905854" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/libexif" path="external/libexif" revision="215d526a578058b2f1cc289dd9051c65d28f646d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libffi" path="external/libffi" revision="a3cbaeee7786f2ffb5d6bdc9e6620599bc8c7c4f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libfuse" path="external/libfuse" revision="f73b1f2b30a7f11b3487dd83920211ef8ea9c666" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/libgav1" path="external/libgav1" revision="b79f371b700156dfa5763d19eaf5a373eafd7d69" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/libgav1" path="external/libgav1" revision="6932929350d4ed11f866817ea2e5af9a270d4dc9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libgsm" path="external/libgsm" revision="5aa1473818c1690793a29d401e432054f019bd3c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/libhevc" path="external/libhevc" revision="ad5b31ce22e28e2cfa7c7407bd417786b80dcbcf" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/libhevc" path="external/libhevc" revision="ca0db51788bd52af23e467eecf185481f56bd672" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libiio" path="external/libiio" revision="81fa4f5780c38e805ca95ec3c580ec7605062c0a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" revision="a76bb74a5f57abcad1a4589146b3d134f4c7481d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/libkmsxx" path="external/libkmsxx" revision="751c39e69ae3bfbbf4ae93c08e5b60b3708d7f90" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -306,7 +306,7 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="85864ae6a8e1d26324d4509ada8f955dc8c6327c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/external/mesa3d" path="external/mesa3d" revision="714ffd8f31403b9f92423311d758ae44b8870dd1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/mime-support" path="external/mime-support" revision="0c0ae47345ef5478125ba6dc7842f73170060ca5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/minigbm" path="external/minigbm" revision="74bd817acb1142444f744e54dfbc28c1a5035bf7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/minigbm" path="external/minigbm" revision="1389807a13a40bc8cd1816c8663a52467e631fd0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/minijail" path="external/minijail" revision="b1a66cfb268d4358ffe6e1f200d582e2ecbfda79" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/mksh" path="external/mksh" revision="53a74d8efd1e8a6b1a80ee4f5f3c5bf95fc8424a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/mockftpserver" path="external/mockftpserver" revision="9b58f046d7f627ea8be88c25eacafdb6d3f026eb" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -324,8 +324,8 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/nfacct" path="external/nfacct" revision="3283d110a2725065a043ed7308d8d6914a08a1a0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/nist-pkits" path="external/nist-pkits" revision="32fe5db4742450caddef2180aeddb28d790bff33" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/nist-sip" path="external/nist-sip" revision="e09d8f3534e5f477f57c9e7759e3b144e2fc4e18" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/nos/host/generic" path="external/nos/host/generic" revision="b9c4916dc205be149a759e7860017a78ce61547c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/noto-fonts" path="external/noto-fonts" revision="44c9ee2e0fd67a810343d3bf6acdefe3899d75df" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/nos/host/generic" path="external/nos/host/generic" revision="6c5d9a94dbeeaf9e69a89458afcca164a7a170a7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/noto-fonts" path="external/noto-fonts" revision="11c5834776e47ce1c98b80368b8d3c5f335e098c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/oauth" path="external/oauth" revision="fc11dddb51c5cb145f40d05091d9c9434457ebc0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/objenesis" path="external/objenesis" revision="ed6249f672b24ea3034ec2d778fbc35b1f655091" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/oj-libjdwp" path="external/oj-libjdwp" revision="8f468701851efec73eae55a742426cc15ced42d5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -338,7 +338,7 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/parameter-framework" path="external/parameter-framework" revision="e4c405bd44f6d864c4fd65b53ea4b371c74655ee" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/pcre" path="external/pcre" revision="74cf0b5f7a6804427769539f9c0fe2090fb02a32" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/pdfium" path="external/pdfium" revision="f3c8126de96493929843714cbb9bb3644885ab62" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/perfetto" path="external/perfetto" revision="392e9e67fde09227242c7690c8d12a901d349037" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/perfetto" path="external/perfetto" revision="536a0edad12d2425a8dd96f58a2c135cc8579153" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/piex" path="external/piex" revision="68dfe035f75d0e6dfcce4b6073da43f9b570296d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/ply" path="external/ply" revision="8a2c31c5e96aaf71835891ddb510a90179a7fe59" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/ppp" path="external/ppp" revision="86df6d27824c8cca82c69dbc10b40909474a55d1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -380,11 +380,11 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/rootdev" path="external/rootdev" revision="02b67ed1fa18a90de052b3dba9c9764c85a30e3f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/byteorder" path="external/rust/crates/byteorder" revision="9c94a0f016be70262106adbb7f6d64b1f2491913" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/libc" path="external/rust/crates/libc" revision="67e79c245a4b6a86e004d40c4234c5f21de41052" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/proc-macro2" path="external/rust/crates/proc-macro2" revision="863bb846a7ae32b4dbce5de532d4a66ec9db9408" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/proc-macro2" path="external/rust/crates/proc-macro2" revision="987efe21867218a45566a21c3341c13d9a4c6c1c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/quote" path="external/rust/crates/quote" revision="a8bccb7f54344765372fc22d9d71590afbb890a2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/remain" path="external/rust/crates/remain" revision="13b0aeb0881fe26b3805690a7d3b9d592859b241" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/syn" path="external/rust/crates/syn" revision="e549f1787b65dc0eaf5ac98d9a9c371585a00228" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/unicode-xid" path="external/rust/crates/unicode-xid" revision="85363e7057582c3c34a252a28f3b5cf9bd02a6a3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/rust/crates/unicode-xid" path="external/rust/crates/unicode-xid" revision="927a99b3e833ee367d7647563dfcefe3186630f7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/external/scapy" path="external/scapy" revision="5657f9c4f9e6eab5dd9d4057c095e8a171f37d7d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/scrypt" path="external/scrypt" revision="c446482115f8399da4444325749ab9a493850118" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/scudo" path="external/scudo" revision="96706dc2d25b5a153a26970b39d95ea8cdc9bc6d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -402,7 +402,7 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/smali" path="external/smali" revision="cc3a2077c74a483ebbdbeb84a6abae3991a357ec" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/snakeyaml" path="external/snakeyaml" revision="80774874dc9077e140d3731e2df9b0c31c8f852e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/sonic" path="external/sonic" revision="7064915b42e90dfb6ba4c80e8f5b5a7ddaff6c9e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/sonivox" path="external/sonivox" revision="40cfed4632a2df3aaba11d9af65449cf44c392ea" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/sonivox" path="external/sonivox" revision="27e262cb4c485288b2bb3a558cc223bf08d1d914" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/speex" path="external/speex" revision="3d0069c08183affc4c27b980404f8cabf8cdf3a0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/sqlite" path="external/sqlite" revision="8850a4947d976d8ef6a928978989844036dca6bc" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools" revision="4373ce64d60b21a17bb6a277126494e6e8284ae2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -419,12 +419,12 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/tinyxml" path="external/tinyxml" revision="39cb8254e8ec706a63b8348f60c78820d5f94daa" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/tinyxml2" path="external/tinyxml2" revision="89c32d589906bc1f7e746540da65b04a478f743a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/toybox" path="external/toybox" revision="1fe91b40d649c75614e21a543f783893ae664e5f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/tremolo" path="external/tremolo" revision="ea41ec250347de2d3e78c0873d768bc5724cf2cc" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/tremolo" path="external/tremolo" revision="648818dd8db62c6899b3bd8cc58e55892ebdad0c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/turbine" path="external/turbine" revision="021dd0398e1865b00c9d0460f7aa5cb83117d72a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/u-boot" path="external/u-boot" revision="eef3cb486e8cdb31cfe99b147bcda0ea7fe415d0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/ukey2" path="external/ukey2" revision="78f2ea23e1b9e8943ff7c6224e7bf959e975d791" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/unicode" path="external/unicode" revision="70cd7aa16ca196239d32fef45e8475ddc8141b8a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="10858d6b96b761f66f385075cb125e38fece86de" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/unicode" path="external/unicode" revision="a64ad5f0e0e7b906eef1800b3b5403e489664fb8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="fb42387380075ec7eee9aee9bf8accc111f3365b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/v8" path="external/v8" revision="f102554eca50205a55947b046c2ac1ed8336bba4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs,vboot" name="platform/external/vboot_reference" path="external/vboot_reference" revision="d36c839eaf0e9d29e735d8e8fa61ea53185b6c7e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/virglrenderer" path="external/virglrenderer" revision="6aa2d9b5b2f81496c3f55263a172ac0ab08e2c55" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -433,12 +433,12 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/volley" path="external/volley" revision="bfa2c3b9d702a5ced0bdd02e82946c47b91f46a4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/vulkan-headers" path="external/vulkan-headers" revision="565c5bf967e964885f1d61d74f72dbf8cba86a1f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" revision="a21a1f785fcb3c9daf84095d96d597c844339b49" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/walt" path="external/walt" revision="32cdbc5dc02735c3c6f41f8a325f457ccd124c8f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/walt" path="external/walt" revision="a90e05f07392f25fcf730c50874fda711a657a0d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/wayland" path="external/wayland" revision="036c10992b64f21c3dbb692907f7021461396537" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" revision="c5327e4c05a9e8832dbecdfb846205195e5530f1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" revision="58cd722ddccb94d28ef24e20ac911599bc7b44e4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" revision="b9612ec874d56ac401432fba7e2d866af6fa1022" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/webrtc" path="external/webrtc" revision="80f388cc9a3f849b6c5cbb1277b84610aa12fef5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="8991495b5fc2ca3fe53627da64481c213e23d2b5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="64a45c628758d7b4329aa99b4669e45e1e457178" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/wycheproof" path="external/wycheproof" revision="cc7457e402efc8eaf389fa05cae65927dae59a44" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="e9ba442a19d8eb4d84d38c023b966745d3df6ad5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/xz-embedded" path="external/xz-embedded" revision="376b3aefa4f9ff028de12ed473d08b6acb18a98e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -447,128 +447,128 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/zlib" path="external/zlib" revision="902d54ac019a9085244b645df717bdd77ecb4101" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/zopfli" path="external/zopfli" revision="1ebb510a3cc2283fc282aa4ebf9f521b32c61fcf" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/zxing" path="external/zxing" revision="ca46ddb16b366def72de987604acb4bc3660ada2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/av" path="frameworks/av" revision="ec5fd07ae12bebe82f1721b60bf66e8cf1b96533" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="77e208ed3eafabaf9f107984068f7a20fd08c912" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/av" path="frameworks/av" revision="ab5c4459d10faa8008502edae0d603db8559cbf2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="12ddeed10723e91115aaaa66c3b81daac3b4c6e0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="327977cf97deaa791c54303d8a56d80b2943c44f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="97459bde28b2f1aac96a52ac1c1ba38ce492bca0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="b979b7357c957e23edb75792aeab1677d931dc6d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/ex" path="frameworks/ex" revision="3aac4ea7815529984d3fa3b5420e3753c1904541" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" revision="7946d0d356035540626c23133c346ba0d5162f0c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" revision="f37f76eaada527a55ac6ffd6b92f96a42b0e2db6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="923597a629e236a9b49f1e986edd990a224a4839" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/libs/modules-utils" path="frameworks/libs/modules-utils" revision="7f4f6b1772548909d52fdf099a5533867a2ffdf9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/libs/native_bridge_support" path="frameworks/libs/native_bridge_support" revision="912945fc282a94a9a894ff70a66a219318c899de" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/libs/native_bridge_support" path="frameworks/libs/native_bridge_support" revision="ee6f5f4837d3fe4c2b31263a3b1ff6114f735c67" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/libs/net" path="frameworks/libs/net" revision="33355ec745ed0e9f0e1325d4c23670fcf375c19b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/libs/systemui" path="frameworks/libs/systemui" revision="0bf89272acabea99cd04e0b087d1c50ccb44138f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="c3c57dcef3abbb8d917febd501b03c16d6dfa12a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/ml" path="frameworks/ml" revision="78487e23c7dc1042d127241f4ca9a278021e5877" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="b31988425d9170d30a736a248aee7dd951dd0f15" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/ml" path="frameworks/ml" revision="0fa29f808b68a1751d65d325c88376239011fd43" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="eaf0f1549a10eff385db31b44cba3e5bbe593795" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/native" path="frameworks/native" revision="bb0bf26cf6646c03a0c5f08de2269f948358ec14" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/native" path="frameworks/native" revision="4ec2fa1831accbb7c82d2a325dd223c1a62c377e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="96e65a8d1811d353a133e1bcf98c095f2b7d43c2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="036276b3e5a101baf691dcd896efa4a64fb23b41" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/frameworks/opt/car/services" path="frameworks/opt/car/services" revision="b12d152f6a3bf07fb7109dd7ed5a9fe28ba093f1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/opt/car/setupwizard" path="frameworks/opt/car/setupwizard" revision="7813780a2878b1718517f2525a26fe134bd29b52" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/chips" path="frameworks/opt/chips" revision="a5b356ca3b76631692da6e7cf93e41115d97182a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/frameworks/opt/car/services" path="frameworks/opt/car/services" revision="0b057dcc80e9b2027dcdf102a6ebdaeb869c52ce" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/opt/car/setupwizard" path="frameworks/opt/car/setupwizard" revision="7efd7c622bdcb3d52018abfa25e971370cc68f80" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/chips" path="frameworks/opt/chips" revision="46c92bd8430e14daf7afb796338c85bb366867c3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/colorpicker" path="frameworks/opt/colorpicker" revision="97feb59a04933aeb6164bf608f49982cfe4c521a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="bfb0d7b8254171df3a821be586d59b0931815179" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="ac1cde9b1581211ad3cd49e429a860718766fa67" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="404fe9caaae33af83418b23a00176fe6f457c29d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="0fd8681c2474ece71579dab5eb1fbe2eca07386b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="dd5de3b4a38ec262bfa671b668cfcfe3ec41ea74" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="dbcffd72d9334d4571e2120f5f76807546864ec1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="b30cf6e2eda8939185cbb9242614da7e124e60a7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="891389de51b349134118cb3b98217eb08d962e95" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="7ce95d12d38560fec46b971faddde5de85e6a372" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="fc893fb3a4f982d117b89505efb4da574ec9cd02" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="2d43266c275f5a72f9332335a0b921af082b2d9b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="e8733f2db683b11d0af96f9335b1c02e952e443b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/tv/tvsystem" path="frameworks/opt/tv/tvsystem" revision="dfd10b29951d02a3ca27fcd5c4535234c3adced5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="8a5234b854ac2db85410dcd60c3c2d7558163ac6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/frameworks/rs" path="frameworks/rs" revision="1138caf92cd67254f936a4e91e7b5c3d16acc6ec" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/frameworks/rs" path="frameworks/rs" revision="782bc8852c11ad95eec3118ab3dd4cbf578cd273" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="65437be791816476f1c43c04d741e176f54a8b2e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/hardware/google/apf" path="hardware/google/apf" revision="80cd79d0760a32353e9a14a5d0faa0c88954d8a6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/hardware/google/av" path="hardware/google/av" revision="059b48bba9d2bb52c706b4d76e2e34ecf0c9dc63" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/hardware/google/camera" path="hardware/google/camera" revision="509371de3402d4e609d71f9bb07aa696ae61af59" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/hardware/google/camera" path="hardware/google/camera" revision="5fc4693d6cba1690115dfacef90d34bd40bc3849" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,easel,pdk" name="platform/hardware/google/easel" path="hardware/google/easel" revision="72a80060d8d427a156fa510a2e2de4cd9494fa6a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/hardware/google/interfaces" path="hardware/google/interfaces" revision="e1a3eb618e568fdfaaf7b9d559eb3f84341163d6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/hardware/interfaces" path="hardware/interfaces" revision="610eb58cbd0505f2e8eb53e6da9df66610e85dbd" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="044c05e688422f3cb524b12b5040d059ce3fc14c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/hardware/google/interfaces" path="hardware/google/interfaces" revision="57d44f6fd80a11a78059be36b72f77df338ac961" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/hardware/interfaces" path="hardware/interfaces" revision="5b9e7ceee1004e6326c854cf94912f7b2ee7b36a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="e8f08b0da8f6909794ff3699f0407c919a2b6083" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="cfa93bca0abe4f58a1878363797bbbe1c87bb335" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="53447ca32a6bfb03125a2999fdf76802e7e7efd0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="a6a81038a9f6515acd046e79693aa44a0de5b70c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" revision="7bcde8fd74370da20f6cb192366df3f243d180da" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="6934d9d81dacca5c605d933d96ba957579eb0f25" upstream="refs/heads/audio-hal.lnx.8.0.r14-rel"/>
+  <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="ff84b25b6a659eae923fb2b938a7213077d8549f" upstream="refs/heads/audio-hal.lnx.8.0.r14-rel"/>
   <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="cba720f09da3673108e417e05d1c0e251fd6fc43" upstream="refs/heads/android-core.lnx.6.0.r13-rel"/>
-  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="f8fe1851a23e5020911e70a1cba7b6dd3bff96e7" upstream="refs/heads/camera.lnx.3.2.r13-rel"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="e004cb2cf182157076ce7f130f4b15bda077e8d5" upstream="refs/heads/camera.lnx.3.2.r13-rel"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="de97675238ce8508ce4ebde6d6ff23ecf1db0796" upstream="refs/heads/display.lnx.3.4.r3-rel"/>
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="406b3a866a0c7e7b201c9dd97a7d64fccf26ec17" upstream="refs/heads/location.lnx.6.0.r12-rel">
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="6622b7a81c051ac82ec65955edcfa7782494f72c" upstream="refs/heads/location.lnx.6.0.r12-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-hal.mk" src="gps_vendor_product.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/gps-product-hal.mk" src="gps_vendor_product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/gps-board.mk" src="gps_vendor_board.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/legacy/gps-board.mk" src="gps_vendor_board.mk"/>
   </project>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="0e32a5501ed68528ba3bd47af1873dc2d5bf6c01" upstream="refs/heads/video-userspace.lnx.2.10.r10-rel"/>
-  <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal" revision="91a827772497d90f1f1db98cfea7593ad5c91112" upstream="refs/heads/ppat-corepower.lnx.1.0.r13-rel"/>
+  <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal" revision="32534afd8e7485b52dfc497fd5b0e946f777aaaa" upstream="refs/heads/ppat-corepower.lnx.1.0.r13-rel"/>
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr" revision="59864a2cd0cddb89dd5fc4933db11b69fbab61ae" upstream="refs/heads/qvr.lnx.5.0.r48-rel"/>
-  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="d585ece9d94275156313d3134dd6acf74ce523f6" upstream="refs/heads/wlan-aosp.lnx.6.0.r10-rel"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="b6ee7387431c642c2a5c4d6705c46b54e238ba31" upstream="refs/heads/wlan-aosp.lnx.6.0.r10-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/hardware/ril" path="hardware/ril" revision="2784768d11c074b8ff52e2910732546b823e9485" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/hardware/st/nfc" path="hardware/st/nfc" revision="de545bd4035c5ac459acb78945246340e455e306" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/hardware/st/secure_element" path="hardware/st/secure_element" revision="2048cd7a31a78746c7f5e1c757dc4c69ea28786c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/hardware/st/nfc" path="hardware/st/nfc" revision="850f80607dddae559408be4cd152e4b4b4656ef4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/hardware/st/secure_element" path="hardware/st/secure_element" revision="67760eae84c6fd7bb9dace5ce3c56e8af8209163" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/hardware/ti/am57x" path="hardware/ti/am57x" revision="49a1efff7bed299dfd5384c26a1956f8ea29c2e9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/libcore" path="libcore" revision="2362f06569604510b724ce6da170e26f792f950c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/libnativehelper" path="libnativehelper" revision="5584cf22de9f0febf63c8619b84bd97bff704143" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="fe69208a097178278dae0ed55592840353fd18cc" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="2a67a213b4429b9b7ae820025b57aaac654bcd46" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/libcore" path="libcore" revision="5dcdc22001465e23e0f240b7db3e56c14af48054" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/libnativehelper" path="libnativehelper" revision="1120862b54b7e2cdf2135a8f25830d2e5ca59a39" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="390f5848fea123c36598e0af35f00b2dc772e9e7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="1b048293bd7affe00d181fc40fe581a1ac11aec8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="bd83f88ba4c2d91d138554f018ef00db6d198d33" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="f0ad9467cab61443982ac7c95b48c16d9c86c6c4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="b4fa49406fa1e36a3d4ce3daaf266d06cd7fccf5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Calendar" path="packages/apps/Car/Calendar" revision="befe2fa58f60ff833c5c2525f6a99582a731382f" upstream="partner-android/q-fs-release"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster" revision="53853695e678eeefa18748f4ad8407a7f66f0bb4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/CompanionDeviceSupport" path="packages/apps/Car/CompanionDeviceSupport" revision="e5297d1fde075018d22f7556b847eb5266b9d912" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" revision="2fa374e13458a940134d8d57ea9e1d950d0b02ea" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/CompanionDeviceSupport" path="packages/apps/Car/CompanionDeviceSupport" revision="4d60a2a2f5068a040f5100a6c85dbb8f5bae2e3b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" revision="cbb332c4287ac39147c2e8a61007e9117f2e4b09" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac" revision="8687a1a59c6e7763eb253c9ea0680025c69b72df" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME" revision="d59deed157893715eefdeb8660f8734800884649" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher" revision="1c7eae28ff0dc6117edfd7690faa4d9f72b81daa" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher" revision="4ddb9fc32839b0808424c8ea95ce720780061d16" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/LinkViewer" path="packages/apps/Car/LinkViewer" revision="67c73ca4453986f6d57a6037f8708110425e10ed" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer" revision="b43446365684b04b6b81bca575abe86fe6e270e0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media" revision="b141432629ba8f9d3a921e777f277c12d64aa83a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger" revision="296ef67d43c219e678745a55a0e621224b170b13" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Notification" path="packages/apps/Car/Notification" revision="d2a9ed8ea522c073ca194ddad68dc02ddf746e4f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media" revision="59fe5e21ab5111fe6fd6a92d07f26453bec26d93" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger" revision="bb3f832be7d27b5c4bc0e78e5486670d91b52da2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Notification" path="packages/apps/Car/Notification" revision="6ad5602abe7707d499cc83ede2c6c46c3e8ed812" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio" revision="86907bb7fefe56c970e383b2387dcf22ce8228a4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/RotaryController" path="packages/apps/Car/RotaryController" revision="85e00d6f8b39343830c619e91aff03cfde9ef0f8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings" revision="cdaf748f1b2cadd7f698899cbc052be2d94f5ef0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/RotaryController" path="packages/apps/Car/RotaryController" revision="b70c9842ac7681eb98bf81057a4ff545985a5d96" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings" revision="1eca7d721b364700ef716a9f742f46e05344649c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" revision="4f101bcc76dc7fee790075ec2683768ab2272d2f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs" revision="95a38ef10132551cc036a8ef68780f43e13f54ba" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/tests" path="packages/apps/Car/tests" revision="adf023e42d93dc10b06fcdc1c90fb1c3e5fd6bf4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="d9e1fa92ebc7a5e37ef82c6cf3830b9801ef9fa0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="abc009537e6e4ea269b4dd785f03b0d129962761" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="d5a4c9865293fc16c20d73b9a0b76151faced508" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="bb14b3ec9cf6e356d3a2ac4d2c014c629584a082" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="6fd11b621e7b0a9164cbb108f7a8ca0cb2f9e902" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs" revision="2976d6cfd12c67b6132e483ea9ea16cb55b78149" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Car/tests" path="packages/apps/Car/tests" revision="a4e8445aab81ec81067812402ffbd6a4548fc789" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="01a7bad3c47c397718c9f6c7bc5cc58ce9484b01" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="b921ab9d312246017ee1fb43d1dcb0dee13e4ca2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="84846e5594052dd7c262c6661bae420769a7f5fd" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="8849f056a9805de30b11b7eb8e157e7916246eff" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="0e91f5bd5cea430134a8e26ea2d8c024102f1fa2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="54376d908472b46ed2b2d45874afffced30a8788" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="f11c3e4821c8239ca80d409e110537ce556809be" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="723ee27981f5eb374ebbefdb8d027180c1b12cb6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="070ff7f879c1d4ea05342eb0283d6cac583b9753" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="5e917d741ea811e4ac100eda9167fb9a1f3c4e75" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="e47f9c4b0a919523cf527166e8a8192f554e6a1e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="c07c526666600a76c438bef7976bac536cf6ab70" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="e540b4aa568a01154817ced9bd0cd064dbbb554e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="0cfec9fb3c679ff1efe9fc421a3aa6937ac2bc9e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="5dd62caee75f44045bbdd3f356a2c87235d88e36" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="d1e1f2a7ebfe95226b5358548f1f7b8829b60af0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="30115a6754fa746c890f2e42a14986c0254b4628" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="f6325bd4cdbafc6074aaf7ac9e7a02a756d14d47" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="a81f7fd5c55b5a1e39a02aa9531890689de0f89a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="8915d691f2b31091765906986d6ceb707d45a7eb" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="e02759069991bc3f0eeda1e70874e4e4e0fb0650" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="b0c983def47fe3ea3fe1770f019a7132b2e4b35c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project name="platform/packages/apps/Mms" path="vendor/codeaurora/commonsys/packages/apps/Mms" revision="8e40332e78840ffadeee80026b667bef0a3533e2" upstream="refs/heads/android_ui-sys.lnx.5.0.r8-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/app_mms_product.mk" src="app_mms_system_product.mk"/>
   </project>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" revision="18bac938725f87f19c84a4411823e19637c33e8c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="c3808e158b043d1c14a6deb21a1e0e6f14e3a2a4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="19d14da8c5aff28f69ee1fe712523c5bd30be888" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/OnDeviceAppPrediction" path="packages/apps/OnDeviceAppPrediction" revision="50c6903ce13bcef7818e6c8ec547533a6057cd99" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="2c0188d078720b929c21c845f4bf2d9faf038835" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/OnDeviceAppPrediction" path="packages/apps/OnDeviceAppPrediction" revision="a48ad918e203ce289ab2ff4eda9e449544730d31" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" revision="0c0efb071df1ec93a3bb08c73705ec29e783db4e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PermissionController" revision="7da4bdbc77a87f6e931364027c4e0e1ebaa6de01" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="5ad6f736dd9800e63af9b42a16ac7c8a2a49b3f1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PermissionController" revision="c0f024a426177895a952804cafc3cb5dd1b9563e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="334edf93d5c91f6863dcc1130e160705938a0d10" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="0c3af2e2684d7256445850913d442524237346e0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="994b9fffc6cf51ff683578c28e4ef0f62634139a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/QuickAccessWallet" path="packages/apps/QuickAccessWallet" revision="2a5a8ae8c5d788e89f6142f37e3e4422eb080e03" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="722f394ad0dcebfe58712207a1f4937778e63c91" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="194d1fda084f814984959ecfc682cb8cfd6b3205" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="2f37f2cb6bd171c30ae7f664bf94113e333b50cc" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="f2779ef63dca4d12c8612618a034b82f19e3842f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" revision="dd9704373c817e36624c0e6207159f2dbe573d81" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="8577826a93d84aa9c9db6d1717ab09d0b5c92c2a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="9d5c10bbd00eda302e98e6caea9980fc3202026a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="3bf2af6d81f263420572ad9a439dc753efb98f3b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="aea5e90d66018017a6e124e2006be15e8f8cb4ae" upstream="refs/heads/camera.lnx.3.2.r13-rel"/>
   <project name="platform/packages/apps/SnapdragonGallery" path="vendor/codeaurora/commonsys/packages/apps/SnapdragonGallery" revision="66e311ebf99a2af6d9b9f4acfb680a88ee3cc0af" upstream="refs/heads/android-snapdragonGallery.lnx.3.0.r7-rel"/>
@@ -577,69 +577,69 @@
   </project>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="b9dc1399b35d671b3f64535b4f046d1db027618a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="a9e22893a94e4902e774334f3065c86d960a5b92" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="b2cfd1ca9e16a516bf7de3836623f56b528da076" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" revision="41b879bd7ae31faf5b3a1a89627fba5717c7d142" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="7a20019d50b83686931445f554091022f583a7bb" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" revision="60e203f182061a8f781053463584fd76036f6166" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/packages/apps/TV" path="packages/apps/TV" revision="7f828b861c413fa7ee44b2106d4d7d2a84b2e75c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="f7c2120af9a4edc6b78950d3a7169eb1acf1fb93" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="1ff1167b658a647eb875e2dfdd9f7e0179f3b230" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Terminal" path="packages/apps/Terminal" revision="d9c6b8b01a38ecc837edfb259a6f1e28f95739a8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" revision="edf601aec3da7a6a0ec786f387adf83a02e6a6da" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/ThemePicker" path="packages/apps/ThemePicker" revision="240528e2972797c487250f0e19d0bba25345794f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/ThemePicker" path="packages/apps/ThemePicker" revision="619ff43e9da87945c0f24374f57ce16b0adbf878" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData" revision="dadd250778d75d6f839a605b93313b11a162d5a6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" revision="478628fcdd8ac3fb76ebbd47e7b41e1f5e73e3ba" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Traceur" path="packages/apps/Traceur" revision="0049bf78b0ff9738fff64358952f80301a968f9c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="442daf89f29d6d6e54644cd6f1d7daffbfbb8b10" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/Traceur" path="packages/apps/Traceur" revision="4455ff849fe412eff605c61041f69fb667c19706" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="0182453f76bd846f96d1564e65526bbb1fc0f7f2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="a30e2606a9f5c54a93c14c1abfb3c4402925e211" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" revision="d0eab80036f1a8e9303e466a07991b965f8fb659" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" revision="d6fb7ca25ecf4439563d6d9f9afd47a903be5d44" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="1531b2951c4001a3c772cf83177083218cfe562e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/inputmethods/LeanbackIME" path="packages/inputmethods/LeanbackIME" revision="1d3320ef13603d56196d636986e00f87b9440765" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt" revision="1fba8ffeb09ad264b569d1210b1220bb992e526c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin" revision="a3bf4c6e506badb159bbfa6ecaadc06ffc892c10" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/packages/modules/CellBroadcastService" path="packages/modules/CellBroadcastService" revision="e3ddbe50ee22f6abf9c51453c24984268e03d87a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/packages/modules/CellBroadcastService" path="packages/modules/CellBroadcastService" revision="107f1f7ee95bfce0210ad9f71bfa5c4350348706" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/Cronet" path="packages/modules/Cronet" revision="c1743bad5d1ffcaedf73f70c22d86396efc884a1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/DnsResolver" path="packages/modules/DnsResolver" revision="6331c7ef37be7e04dff7dd4f92d77310bd0f0513" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices" revision="e510887f5dc07edc0ed439c20a23e7c84a3aa4ee" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices" revision="c0901b3ff493ea3424aeafffa8d381dc79521357" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/IPsec" path="packages/modules/IPsec" revision="b796fd99690b52965a4d9634237e862ed4969c58" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata" revision="7ccc60c7b7b4b9210aa661af36a181c08c208c65" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig" revision="8bc45356eb82fc4002c7a2d5a82667b094074765" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" revision="1ca2caf6442b7b634b8e062f9e0faf811cd573a6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" revision="62777d9a9b6f7bc7914ff3308dba6d7439c781b8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/SdkExtensions" path="packages/modules/SdkExtensions" revision="73353c2547c6120b7fc3d1102c550e10ff913ade" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/modules/vndk" path="packages/modules/vndk" revision="78f0240e4fa3c915ecd5ac315172ad5bfe1fcc77" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" revision="3d4fa0969cdb3b9d12cc402ccfc89a4eb10e5fde" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" revision="c81c04b9f8ae4bfcdf7d339929d00ec1b9e5b47e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="a2a5ec91b418cd8895dc780ac59561e0356dcf5a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" revision="70e9bb165e01fd2e31338e092562243010ca924d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="b8a2355279e3b102567846ee50c1836c12c5b902" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="e19e0edac426a3d042827b072bea6112639c12b7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="55bad6d8ab0833ded7869bdc337e12a639d657e6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="1e90c2e53e0573a26d53a77ad955f8256232754d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="4910939a00be5feef83d08e7822201cf93739fc4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="4bca30746606927605dae47b60737aca098a3d24" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="1cd6619b9d64e78f737a79bc8e795558918a5fa5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="c4cb7da591b3e72474ef7af1a7cd23988deb9e2e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="ee2484a6832df658cfd67cce3ad6dbcdbe1aa2f0" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" revision="a62c3c7211310eace71f11bb341b31422c5dd07c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="486150d627d332843f12c16a35d207bcdb584d91" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" revision="a9aeacfbb49f430cd732b5b9aef370d89ad96f50" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" revision="c42cb70016a4eb52f9838ea4da808f7bd319d139" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" revision="4895f9e2e1acb726ddfa6a4908360245ca383a98" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/AlternativeNetworkAccess" path="packages/services/AlternativeNetworkAccess" revision="d1bf0ae05bae8c8d7f40c9c8d94235c9701ba8ea" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService" revision="61a2b9e695197f9fffe74d1adf0d79cb390914d8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" revision="d08c40bb57945b0527d6042523f9c700dc5173c6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms" revision="1da3f40e13caba772ab603a87442cff3c4d12436" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService" revision="182ee134692fbe777f07080e67923f094af0da91" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" revision="cd8ac77a8858e92d27bdddd7de983d25b89135ae" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms" revision="1ea6f41665aa81b21446f76567c36446d70609b7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Mtp" path="packages/services/Mtp" revision="fdf100bd7b07a03638059cc45e36caf65047e821" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="f775e5c222f3aa6e5145d16699858588b200697e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony" revision="aee8f9ace332d6cbea492c74f43ccbb6d9d85608" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="3c0491d8085699dc0690754298d70b781bed0fff" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony" revision="c08b6c86d39e370cde8bc5b373a4e9766d731409" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/wallpapers/ImageWallpaper" path="packages/wallpapers/ImageWallpaper" revision="0a1680f07b09889c7642a775b6bb69d1b27f9b09" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="a128e0715b81c3340839aabee618c351ef4e27b9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/pdk" path="pdk" revision="81de1723c77aac4f5bbc96118147a5545d92d900" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,cts,pdk-cw-fs,pdk-fs" name="platform/platform_testing" path="platform_testing" revision="2773c68fc5aba5facdd4d30ad683a92de694513c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,cts,pdk-cw-fs,pdk-fs" name="platform/platform_testing" path="platform_testing" revision="2d5d78b6d873c65cf9e80a74aee8f1730a1b4925" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="228b0ebeafc0b08ce9b07953cf1a7529ec922b64" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" revision="3e7d4f5623caf9a2b5c0a4091a854b6ec7797b43" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="a0c1faba2b6b37398a9a7772dac40ec42c49c328" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="6623f5ccbf8d92c4f8a38f7e2921a65960aaca31" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/prebuilts/asuite" path="prebuilts/asuite" revision="dd7343e1d0f67f0bec84bb856f169ad5c734c44a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="233a43e7e4b20b9da58832dc092c231e458fb372" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="e7ec51a80d6e6caffb8802c36ccbcf83bdd2935e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/prebuilts/asuite" path="prebuilts/asuite" revision="c34e0ba4f80768dd8d5b3bd98df10bebfbdb3c8f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="54243b799992d4c5bcb908353cd257df9c9bd119" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/bundletool" path="prebuilts/bundletool" revision="6aa1cf617b6b645f101f2edb9bb33f2b6f2d6fb8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="207e01e2e68f0031edd084521456c3077266f6b5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="bb709c3ba510a115081cd6875ae6ca71573ff0b8" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="8871129659ef7862d3c69e859d415717376c1982" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,cyborg" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="6861cba70ac57b738279c0c6a7ef59afb75d98ba" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" revision="151e69f6988dd8d20797e4f431c38fe44fa72555" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" revision="0efc244ad67e78363c6e385923216ddd93089b2d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="6b71dfa56a93e3cc7675b6056205b8c2a6d04d64" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs" name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" revision="00793d9c61cdfe08077cbf4e4132fdf3fd8334d7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,arm,linux,pdk" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="e96fdcafcd060f51c408b966f3c39bea07e69fba" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -662,29 +662,29 @@
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art" revision="0a68152386e56eab7fce3813aca01301e197b17b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="6f15fe02cc1e829297c701a6b5e55a750868c286" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,linux,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="314e0378097fdf06364465da6ceb367ffb45e6b6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="a143539b365c746c588777807493283f66e5d97c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="f8bd60ac3b6defe9671614cdb368616313cf1109" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/r8" path="prebuilts/r8" revision="37b56d4f7cb4e10ca75744db6e17916f3de709d3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" revision="e44ce8f3002f95f0529cc15fd1cc451debe896b4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" revision="06e4eb86d0c5c270e32dcc506625719873dfd7aa" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/runtime" path="prebuilts/runtime" revision="71b4b433e294167765e3d863919b71552db96c32" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/rust" path="prebuilts/rust" revision="2adc53fa19f69eaf24423e90807b691c2a601807" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="b7ec613c127bc3b3da26266be37a54cf26c5ec25" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel">
+  <project groups="aosp-android11-release,pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="628704dd4457059b77ed07bfa0a36fdbe8334354" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel">
     <linkfile dest="frameworks/support.md" src="current/androidx-README.md"/>
   </project>
-  <project clone-depth="1" groups="aosp-android11-release,pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="615c483ef6c8488ce0b1209dad2637e53af96f2d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project clone-depth="1" groups="aosp-android11-release,pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="7b8cf4e8640e2d08e8cdfd7960e033fbdb0bb56e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" revision="8f5cda388b1ec4f93231e843d6a8d9ceac397da3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28" revision="0eea7bca6faf600e8d51e86073b4ede3c2a3fd75" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29" revision="5b3afc5734673e32ef0070c32db254bf768aa986" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" revision="7c5799ff89a1b9033c30559ea08c788168649b45" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/apex" path="system/apex" revision="33eb3e46946df0dd22e1767c2c10d2b932e33cf5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/apex" path="system/apex" revision="d4fa9501041206d695178be0af2593484b4cb41f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/bpf" path="system/bpf" revision="dc7440d2b6352cdce6f72e43d5e1e01bc1ffb9ee" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/bpfprogs" path="system/bpfprogs" revision="1c6ac41c2f29a03d292348c74ee7fa149067ec4e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/bt" path="system/bt" revision="4b86be61840da8b23fdc25748a7510d5201a038e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/bt" path="system/bt" revision="40883bf80a8d3a03df828d82828328d6c23448c3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="135dd189754ed3ff70065f5e39ef9607f0665111" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/chre" path="system/chre" revision="7350ce844997e99b729fc7419c18c779c633c6eb" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/chre" path="system/chre" revision="322e1c42d0415d1bcf58e989d0fdbc8ed1628f77" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="6cadd28aa5c828485d213b57fdbadfab67ebac2f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="f4bec7a17a1af81c48079626c0133843c79ac2ee" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/core" path="system/core" revision="a86c7b390cc77c3fc1cdb168ffb26e61cae32f40" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/extras" path="system/extras" revision="2e106cd287d95190e2281c58f0e4404a2d36b601" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/core" path="system/core" revision="72c87b86ed9b754c6b7fe41d8717a56b7baf4d50" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/extras" path="system/extras" revision="5ef89cc8f4e54fe44babb3d305f5d9be83ad848c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="259f031d4314c9870dc9a1cf89f67082afc1fa9b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/gsid" path="system/gsid" revision="5e7bb7d0ab846009de2ae0038f97a259c0a324cf" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="0fedbd73024a554a25ddb79522b2a510eccd24ad" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
@@ -694,76 +694,76 @@
   <project groups="aosp-android11-release,pdk" name="platform/system/keymaster" path="system/keymaster" revision="59367d73d59b018c0c5df1ed0a887f9557a00236" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/libartpalette" path="system/libartpalette" revision="800adf7c5777499422646e870b3ac1785b44344e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/libfmq" path="system/libfmq" revision="82ca4c33e96a924b1715c244633728356968c6af" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/libhidl" path="system/libhidl" revision="411b0537e2aee534d442f8c463f42852366b3727" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/libhidl" path="system/libhidl" revision="3912f59edbd841ea3ea940b5e59b8093e38f2321" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/libhwbinder" path="system/libhwbinder" revision="d76db2d7bcbeb926bc07040c997d4c105a37d783" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/libsysprop" path="system/libsysprop" revision="3b048a4a3ff38849053bc73fb2d97183bc02c7d3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/libufdt" path="system/libufdt" revision="f7c9bbf03b73999de9462592b407c3dd50a06e5f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/libvintf" path="system/libvintf" revision="d2ca18f86f17ce21acd06b22fe7e4b186b18ae1d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/linkerconfig" path="system/linkerconfig" revision="15a8e22ad396506399d0390ef600f7fbcb831590" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/media" path="system/media" revision="0b8551bcf7f21b078a82c2b72f9cdb4fe148870d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/media" path="system/media" revision="b5965620117435acefbcc515eddf2a9846741c22" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/memory/libion" path="system/memory/libion" revision="48c376b3edc9c6e57aae1b9896bbb8d99b123efa" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel">
     <linkfile dest="system/core/libion" src="."/>
   </project>
   <project groups="aosp-android11-release,pdk" name="platform/system/memory/libmeminfo" path="system/memory/libmeminfo" revision="cc6014a9f580f1fd5297f7f92f61e141daf1d218" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/memory/libmemtrack" path="system/memory/libmemtrack" revision="6b5f796f2cdb061657ccb871f0a58d33ce15696b" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/memory/libmemunreachable" path="system/memory/libmemunreachable" revision="a2eff613e1462cbb96f641b91da6e9c9f8aeb040" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/memory/lmkd" path="system/memory/lmkd" revision="65c0df96a34d3e61c67de7bfe69844f46c178ac6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/netd" path="system/netd" revision="a98558679134bfaf2356d611421f8c7115be7a9f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/nfc" path="system/nfc" revision="5d0235183ed405e9b43088585a65bea9da0f6647" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/memory/lmkd" path="system/memory/lmkd" revision="c3e9a3fc72d39fa941611bc0a4605483ed3394b1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/netd" path="system/netd" revision="9b9fd6446bc63849bed286e1cf847fd6f8860a57" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/nfc" path="system/nfc" revision="994cdeb8b4ea58194da6e1535b04b9b8629834ef" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/nvram" path="system/nvram" revision="709145921a1c92e801ec29fe73ef5372d04da8a4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" revision="1b6053c5cdca6ef02fc970a17f47db8ad7007f32" upstream="refs/heads/wlan-service.lnx.6.0.r10-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/security" path="system/security" revision="9197f8d62f6c6d0097530807546f865fe3170f50" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="1b34198976971b60586889861fa79d5cf34d612f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/security" path="system/security" revision="7de5ef1251205b8a28dd292a944222d2dfb2edff" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="5e23a20d557caa4800202de9dddf56012153d465" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/server_configurable_flags" path="system/server_configurable_flags" revision="5cbac4f4fb35eaa4617d46c2f799286aaf4a5ce6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/teeui" path="system/teeui" revision="ff0735c1e6dece3d5970e066be7ef21b983dc704" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/testing/gtest_extras" path="system/testing/gtest_extras" revision="ed963cdf32bbc23f2da80eb6074db8288f553547" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/timezone" path="system/timezone" revision="e72a667a0a2bb1efb800ec9bc92b09653c0553c3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/tools/aidl" path="system/tools/aidl" revision="652e5e876009c4fa7ad61dc26d3e4cd84e9827d4" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/tools/aidl" path="system/tools/aidl" revision="b68059b2ef5ee5b48d6bbfa80770ec0534c90faf" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/tools/hidl" path="system/tools/hidl" revision="cef450bca07ccea67290e38523e559642827f01a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/tools/mkbootimg" path="system/tools/mkbootimg" revision="0ae562aa6d185206ec83d5d549926a47e94ec1fe" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/tools/sysprop" path="system/tools/sysprop" revision="ee30ee105174fc76967f150423b9a606b1678aa5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/tools/xsdc" path="system/tools/xsdc" revision="283f7bc88009428aef6faa54740b11f0bb159292" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/system/update_engine" path="system/update_engine" revision="7a4c86062efa65f6bedc534f569c3d0a03767f73" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/system/vold" path="system/vold" revision="62ededf8cdec43ced0c2a6106650aff5ea82cfbe" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/system/vold" path="system/vold" revision="8b84f0728d8f34eca80ad9dae4afef5f8c859d1c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,vts" name="platform/test/framework" path="test/framework" revision="cc119b29610ca84568ad34b977b57d110edca4c2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/test/mlts/benchmark" path="test/mlts/benchmark" revision="2fee2dc3fdf4e943054a1a0369758723cd4d7dcb" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/test/mlts/benchmark" path="test/mlts/benchmark" revision="9b4e2c455e113e57d1aa4034e0f5f69bd52da6da" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/test/mlts/models" path="test/mlts/models" revision="fd176933679f6931f4c3243684fa1e9833587df5" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" revision="bb6c88548907fb0bde706375dc0d46c2424b5a53" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" revision="fa86250c201db7032383aa0795ade0660e4bd11e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,vts" name="platform/test/vti/dashboard" path="test/vti/dashboard" revision="7a8a0d93b49348c183649cbed4ec8b48d4132f1f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,vts" name="platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving" revision="68069a277382148adfad918140dcf9dc32ed4640" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,vts" name="platform/test/vti/test_serving" path="test/vti/test_serving" revision="3c81f28d79afd4b015028845a90e9484c2cadb6e" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts" path="test/vts" revision="3d32e0b4878190e0cc1ecbbb012e9779681566f9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts" path="test/vts" revision="04690e4f88db6ba7b4da717abfb5aea18585171d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,vts" name="platform/test/vts-testcase/fuzz" path="test/vts-testcase/fuzz" revision="b4692c6b7f8202d3ad7c2fc8e8c325f636433f95" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts-testcase/hal" path="test/vts-testcase/hal" revision="71a9fedde0b41890a56dc881ccc38bc39e90fdff" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts-testcase/hal" path="test/vts-testcase/hal" revision="3b269cbf19c618915f81e353ce39c7102f34f9c2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts-testcase/hal-trace" path="test/vts-testcase/hal-trace" revision="184077a1b1748c90ff17459761bbe0aed746f5f9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts-testcase/kernel" path="test/vts-testcase/kernel" revision="0a45faeea498830f38412b71cc6de3ad3753cc70" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts-testcase/kernel" path="test/vts-testcase/kernel" revision="ba35881e7838cf2a5228c673d5f45bd85745d629" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,vts" name="platform/test/vts-testcase/nbu" path="test/vts-testcase/nbu" revision="83ed9b1860dd1d2ca20411e8fdf462056a2ad3fd" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,vts" name="platform/test/vts-testcase/performance" path="test/vts-testcase/performance" revision="014dd88b733f700b7a7174c0053b584f1403c33f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,vts" name="platform/test/vts-testcase/security" path="test/vts-testcase/security" revision="8f78a2470c2b46560855c577453d247241ba6999" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk" revision="175d213471869f5c5802e30f12a92c8681cb9b87" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,vts" name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk" revision="52415ea1e0e875282bd7c74664847796905c7bea" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,projectarch,tools,tradefed,vts" name="platform/tools/acloud" path="tools/acloud" revision="91ea592e729543dc8d34c7bf06f8be3a16006e01" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,tools" name="platform/tools/apifinder" path="tools/apifinder" revision="7f645fa641c96551be35fa8ac8c3bbef2aab4b41" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,tradefed" name="platform/tools/apksig" path="tools/apksig" revision="77e7037886e5be66955581a803c4cc8540acaa39" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,tradefed" name="platform/tools/apksig" path="tools/apksig" revision="a3fad2641ffff5b500917ec768bb17c9d0730993" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,tradefed" name="platform/tools/apkzlib" path="tools/apkzlib" revision="365dd3f3acb59f0d40e062a8802c122eab349a6f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/tools/asuite" path="tools/asuite" revision="388b9798a3afb46ad13a1c7b0442a661c2232a5d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/tools/currysrc" path="tools/currysrc" revision="ca481a7bb21bb7e97f3d8f3868065b516f869262" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk-fs,tools" name="platform/tools/dexter" path="tools/dexter" revision="1999e4f036adb45b1c0c4e320214ab9b8e696a85" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,tools" name="platform/tools/doc_generation" path="tools/doc_generation" revision="637caf8f6ec06d1c51d22ee37b8b107281e4d595" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,nopresubmit,pdk,tradefed" name="platform/tools/loganalysis" path="tools/loganalysis" revision="5536cbdaa01eef9b8c61f1b4c2e0ccac9afe596f" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,tools" name="platform/tools/metalava" path="tools/metalava" revision="0287ae267c98e73a5f8bf39727f894b16f31c295" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,tools" name="platform/tools/metalava" path="tools/metalava" revision="c7106aea9297cef169447797bd81bc20593bc217" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/tools/ndkports" path="tools/ndkports" revision="c1bf030ee33e16b3527b4a3c20959a8f7dee89d3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="adt-infra,aosp-android11-release,cts,developers,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" revision="99a8fa63c5d7553ca3be3e365660070d72c45609" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="adt-infra,aosp-android11-release,cts,developers,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" revision="1fe9afb0e7b80e5a9409fbd9a3cc609c3d72e330" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,tools" name="platform/tools/security" path="tools/security" revision="fc669511c43a6c1c8f827daeb859666d08c4bfc7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="273413c6a13e55fdf677f4884399ef4cae09e2e7" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="7bc4f80a88f7c1ac658f960ec5336a424c2d80a6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/tools/test/graphicsbenchmark" path="tools/test/graphicsbenchmark" revision="678c00edb8a1c22f5fbc3ec532dfd2bec990bf9a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="2b8db4b364e1b1b9ecead5aae9175c4af8a6e4fe" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="2ef80d2f9143a396c8c44642e54743ddaa8a33b2" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="8572c9c7ce2c12a52843da69f10098f788d5008c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="ffd68039ada3ebcefcbd30667a2c78453f8b6ecd" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,cts,pdk,pdk-cw-fs,pdk-fs,tools" name="platform/tools/trebuchet" path="tools/trebuchet" revision="21137a37a9ac11c42718a3521bd8d154f540a9fa" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer" revision="5e9cb538f0dc49ce1ea432ec00de5e41489056f9" upstream="refs/heads/atel-sys.lnx.1.0.r13-rel"/>
+  <project name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer" revision="ceaf993641b7773708d5170f9808494a9f905c84" upstream="refs/heads/atel-sys.lnx.1.0.r13-rel"/>
   <project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" path="vendor/codeaurora/commonsys/packages/apps/SoundRecorder" revision="3c48cb841c69bac998374fb0e237e5e7cb0520cc" upstream="refs/heads/android_ui-sys.lnx.5.0.r8-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/system/app_qtiSoundRecorder_product.mk" src="app_qtiSoundRecorder_system_product.mk"/>
   </project>
-  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony" revision="cef4c36497f49103049c9a16c0e7ff156195efad" upstream="refs/heads/atel-sys.lnx.1.0.r13-rel"/>
+  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony" revision="e3650cbaf059eab9f60569038b2c0b4123a27863" upstream="refs/heads/atel-sys.lnx.1.0.r13-rel"/>
   <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc" revision="3ee762f38c54f8eb35bfa5cc702a51b4041548f6" upstream="refs/heads/nfc.intf.lnx.2.0.r10-rel"/>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" revision="976081dd847197f771f562d776ed8b816d24e4c7" upstream="refs/heads/nfc.sys.lnx.2.0.r10-rel"/>
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" revision="59168cf36d32a4fcab64a02c53df3faf07ddaf59" upstream="refs/heads/nfc.sys.lnx.2.0.r10-rel"/>
@@ -774,22 +774,22 @@
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" revision="4913ca4767b7547abc5c7589bb57dbdb24444601" upstream="refs/heads/nfc.sys.lnx.2.0.r10-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/nfc-system-product.mk" src="nfc_system_product.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/commonsys/audio" revision="9994d894f681d257d93e1ba9efcfbf0dd8be5151" upstream="refs/heads/av-aosp-qc.lnx.11.0.r13-rel"/>
+  <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/commonsys/audio" revision="b62cb0fd8a21323ec945b54ba97dd8ba217ec08d" upstream="refs/heads/av-aosp-qc.lnx.11.0.r13-rel"/>
   <project name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" revision="da0185f0652a2a87d252ba35b2231f6feea79652" upstream="refs/heads/audio-hal.lnx.8.0.r14-rel"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" revision="35a312ad9b4c7cf56db1a69543c027cad2f3c427" upstream="refs/heads/bt.lnx.6.0.r13-rel"/>
-  <project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" revision="45564a56b751973fa6b02fcb63de942ac90b57cf" upstream="refs/heads/btcommon.lnx.6.0.r12-rel">
+  <project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" revision="96f5b375e404872fe33f022db1cbab4e1049d144" upstream="refs/heads/btcommon.lnx.6.0.r12-rel">
     <linkfile dest="vendor/qcom/defs/board-defs/legacy/bt-commonsys-intf-legacy-board.mk" src="bt-commonsys-intf-legacy-board.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="bed584bf88771c88103bf5bfc7068264a990e45e" upstream="refs/heads/bt.lnx.6.0.r13-rel"/>
-  <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="aab302934a3ccd9e63d2e9150a68a487850e4c25" upstream="refs/heads/android-core-sysintf.lnx.6.0.r12-rel">
+  <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="02b18b6a09747b67abb87330f8c31ed2eaf276ce" upstream="refs/heads/bt.lnx.6.0.r13-rel"/>
+  <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="1ed4802070adab0e24795f12fa09812c7b41f3eb" upstream="refs/heads/android-core-sysintf.lnx.6.0.r12-rel">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
     <linkfile dest="build.sh" src="build/build.sh"/>
   </project>
   <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" revision="f9ddb744de137f8acfb5807e24c095c79c67f910" upstream="refs/heads/qcom-qssi.lnx.6.0.r10-rel"/>
-  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="34c4e7f4511e9602589a2468df74a575e32d0c74" upstream="refs/heads/data.lnx.6.0.r12-rel">
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="b093d8169e02916473ec5d9d48e63bd860f514bb" upstream="refs/heads/data.lnx.6.0.r12-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/data-kernel" path="vendor/qcom/opensource/data-kernel" revision="8a4244e35acddc8a030a3a79dfc700580f64358c" upstream="refs/heads/data.lnx.6.0.r12-rel">
@@ -797,53 +797,53 @@
   </project>
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="0fb7abe717fab15465cc508e1952991147d96316" upstream="refs/heads/data.lnx.6.0.r12-rel"/>
   <project name="platform/vendor/qcom-opensource/dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices" revision="0cb1df40dc3aa65b5f19b904c91924dd1892e524" upstream="refs/heads/data-sys.lnx.6.0.r10-rel"/>
-  <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" revision="46c3371b2adce778c734a6d9da5fb62a2edbdf4e" upstream="refs/heads/display-sysintf.lnx.1.2.r12-rel">
+  <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" revision="23c3e41f60b6f1ed798491ae5ca72cd8e2e78c2d" upstream="refs/heads/display-sysintf.lnx.1.2.r12-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" revision="8c98e1d8b44806ee6765de339107f2f3cb64e427" upstream="refs/heads/data.lnx.6.0.r12-rel"/>
   <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm" revision="9ff587035fddde3d21724b61f9807f347d69e03a" upstream="refs/heads/data-sys.lnx.6.0.r10-rel"/>
-  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" revision="e2cfcb8c7b0b9ca6aad9372046948edbb83049f5" upstream="refs/heads/fm.lnx.6.0.r12-rel"/>
+  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" revision="cf0c07077e2cab102e23a2081a40d3503ac11554" upstream="refs/heads/fm.lnx.6.0.r12-rel"/>
   <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager" revision="493c054dc216390690d2099f1b4252f49d53cc26" upstream="refs/heads/wigig-vndr.lnx.6.0.r8-rel"/>
   <project name="platform/vendor/qcom-opensource/healthd-ext" path="vendor/qcom/opensource/healthd-ext" revision="68b3867c18d7cbe75e42a8061bb4158b3e1a0c21" upstream="refs/heads/android-core.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" revision="5501b34653e709bf4d77d71e949b224ba6465653" upstream="refs/heads/android-core-sysintf.lnx.6.0.r12-rel"/>
-  <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="7b49ebc715314418c8786d6fedcc70480501fdcd" upstream="refs/heads/location.lnx.6.0.r12-rel">
+  <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="4876e45f347fdc2f3f213ace911069505c4aa977" upstream="refs/heads/location.lnx.6.0.r12-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils" revision="2a9f768b9d233d208f5bec564b430c4ac83be6a1" upstream="refs/heads/core-technologies.lnx.3.0.r13-rel"/>
-  <project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" revision="65fc6e9dec5909c8316b0b8dd9bc37b65ad72831" upstream="refs/heads/bt.lnx.6.0.r13-rel"/>
+  <project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" revision="200783729f0c40e74f88bab43d7901db3343185f" upstream="refs/heads/bt.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom-opensource/power" path="vendor/qcom/opensource/power" revision="af315e067c472b742115e6a4638356b7fcb260f0" upstream="refs/heads/power.legacyopensource.lnx.1.0.r15-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/recovery-ext" path="vendor/qcom/opensource/recovery-ext" revision="9720a357bf1bb6e542c3d02dccc788938e4c984e" upstream="refs/heads/android-core.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="214ece874ced71fcbeb2fbc0a218b0824be60c34" upstream="refs/heads/data.lnx.6.0.r12-rel"/>
-  <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt" revision="399cbce5232939e03ed6fab3043d7b74d4debc82" upstream="refs/heads/bt.lnx.6.0.r13-rel"/>
+  <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt" revision="2a2d954343821f383d8cf38ea661792074abce0c" upstream="refs/heads/bt.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine" revision="2e30f606b2f4816085af9b22b421e3b916523648" upstream="refs/heads/android-core.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="4392352f2d649266057459dca6a3944a750f7aee" upstream="refs/heads/core-technologies.lnx.3.0.r13-rel"/>
-  <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" revision="d91f0645d1a2142982c81d0e7026bbff88efb46f" upstream="refs/heads/opensource-tools.lnx.1.0.r107-rel"/>
-  <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb" revision="552d22a6e1eb201dbeb206988d5ec53d9d760fa6" upstream="refs/heads/core-technologies.lnx.3.0.r13-rel">
+  <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" revision="b5c9096a26cebcb48cb6c9551ffcea658ff80bdc" upstream="refs/heads/opensource-tools.lnx.1.0.r107-rel"/>
+  <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb" revision="ba47145468c4fa43d25ed3336f7e9770b9e1943f" upstream="refs/heads/core-technologies.lnx.3.0.r13-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator" revision="f25d1e73b66d67cf58b289ea671567b294f18228" upstream="refs/heads/core-technologies.lnx.3.0.r13-rel">
+  <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator" revision="eefcfcc4ce1596e5e669d20476baacb0988f4f4b" upstream="refs/heads/core-technologies.lnx.3.0.r13-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/wigig" path="vendor/qcom/opensource/wigig" revision="5b1bdbbfdb2410cbe304fc402047df67604409a7" upstream="refs/heads/wigig-vndr.lnx.6.0.r8-rel"/>
-  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" revision="0b3cf006b4a6e2dbca1e1d8583d89eb7a7404693" upstream="refs/heads/wlan-api.lnx.1.0.r52-rel"/>
-  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="861466a0dc2d49453ae08fe4dfed27795e8c0b24" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.r20-rel"/>
-  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" revision="7e68f368c829127fbcd5d1757c539646c9d7e284" upstream="refs/heads/wlan-cld3.driver.lnx.2.0.r20-rel"/>
-  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="44206ead29ae2e562f0262241d76a3956a9bcc67" upstream="refs/heads/wlan-service.lnx.6.0.r10-rel"/>
-  <project name="platform/vendor/qcom/atoll" path="device/qcom/atoll" revision="f7f5b9675a8a5936e4a945e201e629b432037183" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
-  <project name="platform/vendor/qcom/cobalt" path="device/qcom/msm8998" revision="ca59f883929bae7e4f9b01dcfd48de7946313634" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
-  <project name="platform/vendor/qcom/falcon_64" path="device/qcom/sdm660_64" revision="c310926c4495d98a770a95e4be8376b9b8b34bdb" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" revision="cce28b97aa72bbf70bd6960e47cdeab339451d76" upstream="refs/heads/wlan-api.lnx.1.0.r52-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="ccd2365d21634796cc14abc0cfe833222e3120e8" upstream="refs/heads/wlan-cmn.driver.lnx.2.0.r20-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" revision="198499b70a2a384090913c439d58ca8d03992ec7" upstream="refs/heads/wlan-cld3.driver.lnx.2.0.r20-rel"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="c6ce17773ef7b91812a0a09b4c644e760d1f0dd1" upstream="refs/heads/wlan-service.lnx.6.0.r10-rel"/>
+  <project name="platform/vendor/qcom/atoll" path="device/qcom/atoll" revision="3a335acf4cdeeb01d9b0e3c703c4427bd5b9482f" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
+  <project name="platform/vendor/qcom/cobalt" path="device/qcom/msm8998" revision="5ff91dff721647ea230913169360bcbd281912ac" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
+  <project name="platform/vendor/qcom/falcon_64" path="device/qcom/sdm660_64" revision="5ead75f044bf0e037a78a59043dfcd073f5f83fb" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909" revision="d1c0cf7262011a519fd6087c7e66383baef0d394" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom/msm8909go" path="device/qcom/msm8909go" revision="7ee772df9b5f4a36e508b1db958ad86dab7ee651" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom/msmnile" path="device/qcom/msmnile" revision="941060f1d4e5398968133085a19a2b815b971f31" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom/skunk" path="device/qcom/sdm845" revision="68894bdc7ab12ccaba2a9cc0baef4b25f4f9887f" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
-  <project name="platform/vendor/qcom/steppe" path="device/qcom/sm6150" revision="1fa28a9441fc8eace7496e5542f1dc8e98cb4cbe" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
+  <project name="platform/vendor/qcom/steppe" path="device/qcom/sm6150" revision="c12cde03abf5a8a5e7fc2b86dd8823aebeb19e83" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996" revision="f97f10755fbda536318390472bdf6d0479cb06db" upstream="refs/heads/qcom-devices.lnx.6.0.r13-rel"/>
-  <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="486b505120902701288b6975323686cba66639ee" upstream="refs/heads/wlan-service.lnx.6.0.r10-rel"/>
+  <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="d285b1410260b7fab5caf9b13abb73be99509223" upstream="refs/heads/wlan-service.lnx.6.0.r10-rel"/>
   <project groups="aosp-android11-release,pdk" name="toolchain/pgo-profiles" revision="0cbf93ee640b345104faa2ad10c87390438b5555" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk,pdk-cw-fs,pdk-fs" name="tools/platform-compat" revision="1714fa197bd351843ab8469a79f8cecbe03d8c4c" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
 
