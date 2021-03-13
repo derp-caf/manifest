@@ -130,7 +130,7 @@
   <project groups="aosp-android11-release,pdk" name="platform/external/cbor-java" path="external/cbor-java" revision="3f2422cd939d0657b09ea901d7238748ddd36fa6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/chromium-libpac" path="external/chromium-libpac" revision="b52a10a9799decf2a140aa9f17a9c28573b7ec4d" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/chromium-trace" path="external/chromium-trace" revision="89d82873e2dbd077f08ac69ccf23d28eeb2a4de9" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
-  <project groups="aosp-android11-release,pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="3354ec9390f7339e6b87d011e27de74ec55468a6" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
+  <project groups="aosp-android11-release,pdk" name="platform/external/chromium-webview" path="external/chromium-webview" revision="3354ec9390f7339e6b87d011e27de74ec55468a6" clone-depth="1" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/clang" path="external/clang" revision="83479431011ffe55379a771106a0484d53e1c83a" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/cldr" path="external/cldr" revision="f94b747495339175c248fd062511ac0636f7fcb3" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
   <project groups="aosp-android11-release,pdk" name="platform/external/cn-cbor" path="external/cn-cbor" revision="5b173ef675fc0d787ccabc219bec6dea473e0c56" upstream="refs/heads/ks-aosp.lnx.3.0.r12-rel"/>
