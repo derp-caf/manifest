@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote    name="derp"
+           fetch="https://github.com/derp-caf"
+           revision="rebase" />
+
+<remote    name="github"
+           fetch="https://github.com/" />
+
   <!-- general -->
+  <remove-project name="platform/bionic" />
   <project name="bionic" path="bionic" remote="derp" />
+  <remove-project name="platform/bootable/recovery" />
   <project name="bootable_recovery" path="bootable/recovery" remote="derp" />
+  <remove-project name="platform/art" />
   <project name="art" path="art" remote="derp" />
 
   <!-- build -->
+  <remove-project name="platform/build" />
   <project name="build" path="build/make" remote="derp" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -16,50 +27,73 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
+  <remove-project name="platform/build/soong" />
   <project name="build_soong" path="build/soong" remote="derp">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  
+
   <!-- device -->
+  <remove-project name="device/qcom/sepolicy" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="derp" />
 
   <!-- external -->
+  <remove-project name="platform/external/selinux" />
   <project name="external_selinux" path="external/selinux" remote="derp" />
+  <remove-project name="platform/external/fastrpc" />
   <project name="external_fastrpc" path="external/fastrpc" remote="derp" />
 
   <!-- frameworks -->
+  <remove-project name="platform/frameworks/av" />
   <project name="frameworks_av" path="frameworks/av" remote="derp" />
+  <remove-project name="platform/frameworks/base" />
   <project name="frameworks_base" path="frameworks/base" remote="derp" />
+  <remove-project name="platform/frameworks/native" />
   <project name="frameworks_native" path="frameworks/native" remote="derp" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/qcom/wlan" />
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="derp" />
+  <remove-project name="platform/hardware/interfaces" />
   <project name="hardware_interfaces" path="hardware/interfaces" remote="derp" />
+  <remove-project name="platform/hardware/libhardware" />
   <project name="hardware_libhardware" path="hardware/libhardware" remote="derp" />
+  <remove-project name="platform/hardware/ril" />
   <project name="hardware_ril" path="hardware/ril" remote="derp" />
 
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Settings" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="derp" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="derp" />
   <project name="packages_apps_DerpZone" path="packages/apps/DerpZone" remote="derp" />
   <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="derp" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="derp" />
-  <project name="packages_apps_PermissionController" path="packages/apps/PermissionController" remote="derp" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="derp" />
   <project name="packages_apps_PotatoPlugins" path="packages/apps/PotatoPlugins" remote="derp" />
+  <remove-project name="platform/packages/services/Telephony" />
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="derp" />
+  <remove-project name="platform/packages/services/Telecomm" />
   <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="derp" />
+  <remove-project name="platform/packages/modules/NetworkStack" />
   <project name="packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="derp" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="derp" />
 
   <!-- system -->
+  <remove-project name="platform/system/bt" />
   <project name="system_bt" path="system/bt" remote="derp" />
+  <remove-project name="platform/system/core" />
   <project name="system_core" path="system/core" remote="derp" />
+  <remove-project name="platform/system/sepolicy" />
   <project name="system_sepolicy" path="system/sepolicy" remote="derp" />
+  <remove-project name="platform/system/netd" />
   <project name="system_netd" path="system/netd" remote="derp" />
   
   <!-- prebuilts -->
+  <remove-project name="platform/prebuilts/build-tools" />
   <project name="prebuilts_build-tools" path="prebuilts/build-tools" remote="derp" />
   <project name="prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="derp" />
 
@@ -68,19 +102,28 @@
 
   <!-- vendor -->
   <project name="vendor_derp" path="vendor/derp" remote="derp" />
-  <project name="vendor_codeaurora_packages_apps_Dialer" path="vendor/codeaurora/packages/apps/Dialer" remote="derp" />
+  <remove-project name="platform/vendor/qcom-opensource/power" />
   <project name="vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="derp"/>
 
+  <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="derp">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
   </project>
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <project name="vendor_qcom_opensource_commonsys_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="derp" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
   <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="derp" />
+  <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <project name="vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="derp" />
+  <remove-project name="platform/vendor/qcom-opensource/usb" />
   <project name="vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="derp" />
+  <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
   <project name="vendor_qcom_opensource_recovery-ext" path="vendor/qcom/opensource/recovery_ext" remote="derp" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <project name="vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="derp" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="derp" />
+  <remove-project name="platform/vendor/codeaurora/telephony" />
   <project name="vendor_codeaurora_commonsys_telephony" path="vendor/codeaurora/commonsys/telephony" remote="derp" />  
 
 </manifest>
